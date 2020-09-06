@@ -56,12 +56,22 @@ h2 {
   font-weight: bold;
   color: whitesmoke;
   background-color: gray;
+  padding-left: 1rem;
 }
 
-.img {
-  width: auto;
-  background-position-x: center;
+.content_img {
+  display: inline-block;
+  vertical-align: top;
+  width: 46%;
+  margin: 0 30px 0 0;
 }
+.content_paragraph {
+  display: inline-block;
+  width: 46%;
+  padding: 4rem 0 0 0;
+  line-height: 1.7rem;
+  }
+
 
 /* The footer is fixed to the bottom of the page */
 
@@ -215,5 +225,13 @@ footer {
 
   .footer-distributed .footer-center i {
     margin-left: 0;
+  }
+  
+  .content_paragraph {
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    width: 80%;
+
   }
 }
